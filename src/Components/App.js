@@ -12,12 +12,12 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/signup" components={SignupPage} />
-          <Route exact path="/signin" components={SigninPage} />
-          <Route exact path="/landing" components={LandingPage} />
-          <Route exact path="/home" components={HomePage} />
-          <Route exact path="/account" components={AccountPage} />
-          <Route exact path="/pw-forget" components={ForgetPasswordPage} />
+          <Route exact path="/signup" component={SignupPage} />
+          <Route exact path="/signin" component={SigninPage} />
+          <Route exact path="/landing" component={LandingPage} />
+          <Route exact path="/home" component={HomePage} />
+          <Route exact path="/account" component={AccountPage} />
+          <Route exact path="/pw-forget" component={ForgetPasswordPage} />
         </div>
       </Router>
     );

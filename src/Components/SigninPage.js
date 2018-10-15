@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import './App.css';
 
 class SigninPage extends Component {
   render() {
-    return <div>Signup</div>;
+    return (
+    <div>signin</div>
+    
+    );
   }
 }
 
